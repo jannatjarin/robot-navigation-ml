@@ -17,6 +17,10 @@ This project uses the Wall-Following Robot Navigation Data from the UCI Machine 
 
 The data were collected while a SCITOS G5 mobile robot followed a wall around a room using 24 ultrasonic sensors.
 
+The dataset is sequential. The robot navigated the room clockwise for four rounds, with sensor readings sampled at approximately 9 observations per second.
+
+The dataset contains 5,456 observations, 24 numerical sensor features, and one target variable.
+
 The project uses the `sensor_readings_24.data` file, which contains 24 numerical ultrasonic sensor readings and one target class representing the robot's navigation action.
 
 The four target classes are:
@@ -32,4 +36,6 @@ Freire, A., Veloso, M., & Barreto, G. (2009). Wall-Following Robot Navigation Da
 
 DOI: 10.24432/C57C8W
 
-License: CC BY 4.0
+License: CC BY 4.0git add README.md
+
+A detailed description of the variables is available in `data/data_dictionary.md`.
