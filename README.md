@@ -36,6 +36,6 @@ Freire, A., Veloso, M., & Barreto, G. (2009). Wall-Following Robot Navigation Da
 
 DOI: 10.24432/C57C8W
 
-License: CC BY 4.0git add README.md
+License: CC BY 4.0
 
 A detailed description of the variables is available in `data/data_dictionary.md`.
