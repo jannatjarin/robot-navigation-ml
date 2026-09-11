@@ -39,3 +39,39 @@ DOI: 10.24432/C57C8W
 License: CC BY 4.0
 
 A detailed description of the variables is available in `data/data_dictionary.md`.
+
+## Project Workflow
+
+The project follows an end-to-end classification workflow:
+
+1. Dataset loading and provenance documentation
+2. Data audit and cleaning
+3. Exploratory data analysis
+4. Feature and target preparation
+5. Ordered training, validation, and test split
+6. Majority-class baseline
+7. K-Nearest Neighbours classification
+8. Decision Tree classification
+9. Random Forest classification
+10. Validation-based model comparison
+11. Final model selection
+12. Final test evaluation
+13. Error analysis and limitations
+
+## Models
+
+The following approaches are compared:
+
+- Majority-class baseline
+- K-Nearest Neighbours
+- Decision Tree
+- Random Forest
+
+The final model is selected using validation Macro F1. The final test set is reserved until model selection is complete.
+
+## Running the Project
+
+Create a virtual environment:
+
+```powershell
+python -m venv .venv
